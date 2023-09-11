@@ -19,10 +19,6 @@ private:
         bool backtrack;
     };
 
-//this is my code 
-void function(){
-    
-}
 public:
 
     DepthFirstSearch(const GRAPH& graph, const TRAVERSE_TREE_EDGE& traverseTreeEdge = TRAVERSE_TREE_EDGE(), const TRAVERSE_NON_TREE_EDGE& traverseNonTreeEdge = TRAVERSE_NON_TREE_EDGE(), const BACKTRACK& backtrack = BACKTRACK(), const ROOT& root = ROOT(), const FINALIZE& finalize = FINALIZE()) :
